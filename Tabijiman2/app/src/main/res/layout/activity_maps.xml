@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="net.efas.app.tabijimanMapsActivity" >
+
+    </fragment>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:background="#ffffff"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:background="#ffffff"
+            android:gravity="center_vertical|center|center_horizontal">
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/Train"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/train_button"
+                android:scaleType="fitXY"
+                android:background="@null" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:background="#ffffff"
+            android:gravity="center_vertical|center|center_horizontal">
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/Car"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/car_button"
+                android:scaleType="fitXY"
+                android:background="@null" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:background="#ffffff"
+            android:gravity="center_vertical|center|center_horizontal">
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/Walk"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/walk_button"
+                android:scaleType="fitXY"
+                android:background="@null" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:background="#ffffff"
+            android:weightSum="1"
+            android:gravity="center_vertical|right">
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:id="@+id/showFrame"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@null"
+                android:scaleType="fitStart"
+                android:src="@drawable/frame_button" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:background="#ffffff"
+            android:gravity="left|center_vertical">
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:id="@+id/showPlace"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@null"
+                android:scaleType="fitStart"
+                android:src="@drawable/place_button" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/takePicture"
+        android:layout_gravity="left|bottom"
+        android:src="@drawable/top_btn_take_photo"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@null"
+        android:contentDescription="" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/frameCollection"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/top_btn_flame_collection"
+        android:scaleType="fitXY"
+        android:background="@null"
+        android:contentDescription="" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:id="@+id/GoFukuiButton"
+        android:layout_gravity="right|top"
+        android:baselineAlignBottom="false"
+        android:adjustViewBounds="false"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        android:background="@null"
+        android:src="@drawable/go_fukui00"
+        android:scaleType="fitCenter"
+        android:visibility="gone" />
+
+</FrameLayout>

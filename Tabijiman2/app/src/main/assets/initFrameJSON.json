@@ -1,0 +1,42 @@
+{
+  "results":{
+    "bindings":{
+      "jp":[
+        {
+          "name" : { "value" : "西山公園 レッサーパンダ" },
+          "desc" : { "value" : "レッサーパンダと西山公園のつつじ。西山公園は、５月のGW前後がつつじがみごろです。園内の西山動物園は入園無料。" },
+          "lat"  : { "value" : "35.950183" },
+          "lng"  : { "value" : "136.181916"},
+          "area" : { "value" : "500" },
+          "img"  : { "value" : "sabae_nishiyama_oss.png"}
+        },
+        {
+          "name" : { "value" : "足羽川の桜並木" },
+          "desc" : { "value" : "朝倉ゆめまる君と足羽川の桜並木。足羽川の堤防に並ぶ桜並木は、４月上旬がみごろ。「さくら名所100選」にも選ばれています。" },
+          "lat"  : { "value" : "36.060975" },
+          "lng"  : { "value" : "136.213227" },
+          "area" : { "value" : "500" },
+          "img"  : { "value" : "fukui_asuwa_oss.png" }
+        }
+      ],
+      "en":[
+        {
+          "name" : { "value" : "Nishiyama Park, Sabae" },
+          "desc" : { "value" : "Lesser panda & azalea in nishiyama park.Azalea's season is the beginning of May. You can meet some animals in zoo with free of charge." },
+          "lat"  : { "value" : "35.950183" },
+          "lng"  : { "value" : "136.181916" },
+          "area" : { "value" : "500" },
+          "img"  : { "value" : "frame_nishiyama.png"}
+        },
+        {
+          "name" : { "value" : "Row of cherry blossom trees, Asuwa  River" },
+          "desc" : { "value" : "Asakura YUMEMARU & row of cherry blossom trees around asuwa river.You can see such a amazing cherry blossom on the beginning of April. The place is also designated as one of Japan's Top 100 Cherry Blossom Viewing Sites" },
+          "lat"  : { "value" : "36.060975" },
+          "lng"  : { "value" : "136.213227" },
+          "area" : { "value" : "500" },
+          "img"  : { "value" : "frame_fukui_asuwa.png" }
+        }
+      ]
+    }
+  }
+}

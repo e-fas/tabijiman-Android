@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/View1"
+        android:layout_weight="2">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/imageViewLogo"
+            android:layout_weight="1"
+            android:src="@drawable/tabijiman_logo"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/copyright"
+            android:id="@+id/LabelCopyRight"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/View2"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ライセンス"
+            android:id="@+id/LabelLicense"
+            android:background="#00B5E2"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="データ"
+            android:id="@+id/LabelData"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#007AFF"
+            android:paddingTop="10dp"
+            android:background="@null" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ViewOdp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageViewOdp"
+                android:layout_weight="3"
+                android:src="@drawable/odp_logo"
+                android:scaleType="fitCenter"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/odp"
+                android:id="@+id/LabelOdp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ソフトウェア"
+            android:id="@+id/LabelSoftware"
+            android:background="@null"
+            android:textColor="#007AFF"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ScrollViewSoftware" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/license"
+                android:id="@+id/TextViewSoftware" />
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

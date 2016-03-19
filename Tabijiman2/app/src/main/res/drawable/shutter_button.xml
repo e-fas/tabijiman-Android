@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Buttonが押された時 -->
+    <item android:state_activated="true"
+        android:drawable="@drawable/camera_btn_photo" />
+
+    <!-- Buttonが押されてない時 -->
+    <item android:state_activated="false"
+        android:drawable="@drawable/camera_btn_photo_off" />
+
+</selector>

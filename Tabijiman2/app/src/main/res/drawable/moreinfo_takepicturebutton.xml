@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Buttonが押された時 -->
+    <item android:state_enabled="true"
+        android:drawable="@drawable/flame_collection_info_btn_take_photo_s" />
+
+    <!-- Buttonが押されてない時 -->
+    <item android:state_enabled="false"
+        android:drawable="@drawable/flame_collection_info_btn_take_photo_s_disable" />
+
+</selector>
